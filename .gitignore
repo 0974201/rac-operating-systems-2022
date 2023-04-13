@@ -1,5 +1,4 @@
 ### Example user template template
-### Example user template
 
 # IntelliJ project files
 .idea
@@ -146,3 +145,4 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+ops.code-workspace
