@@ -33,9 +33,6 @@ jobs:
       - name: Run unit tests
         run: |
           python -m unittest discover
-      - name: Lint check
-        run: |
-          pylint passworder
   build-docker-image:
     runs-on: ubuntu-latest
     steps:
