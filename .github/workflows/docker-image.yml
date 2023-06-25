@@ -49,4 +49,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: user/app:latest
+          tags: revolver0celot/ops-2022-0974201:latest
