@@ -1,6 +1,8 @@
 import unittest
 from unittest import TestCase
-import sys, os
+import passworder
+import sys
+import os
 
 sys.path.insert(0, os.path.dirname(__file__))
 from passworder import Passworder
