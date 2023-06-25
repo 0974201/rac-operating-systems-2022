@@ -16,8 +16,6 @@ jobs:
           pip install --upgrade pip
           pip install flake8
           flake8 --max-line-length=120
-      - name: Hello World!
-        run: echo "Hello World"
   testing:
     runs-on: ubuntu-latest
     steps:
