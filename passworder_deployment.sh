@@ -8,20 +8,20 @@
 #    echo "deleted directories"
 #fi
 
-#if [ -d ./passworder ]; then
-#    rm -rf ./passworder
-#    echo "deleted directory"
-#fi
-
-#if [ -d ./passworder_test ]; then
-#    rm -rf ./passworder_test
-#    echo "deleted directory"
-#fi
-
-if [ -d ./test/testt ]; then
-    rm -rf ./test/testt ./test
+if [ -d ./passworder ]; then
+    rm -rf ./passworder
     echo "deleted directory"
 fi
+
+if [ -d ./passworder_test ]; then
+    rm -rf ./passworder_test
+    echo "deleted directory"
+fi
+
+# if [ -d ./test/testt ]; then
+#     rm -rf ./test/testt ./test
+#     echo "deleted directory"
+# fi
 
 git clone git@github.com:Rac-Software-Development/operating-systems-2022-0974201.git ./passworder-test
 
