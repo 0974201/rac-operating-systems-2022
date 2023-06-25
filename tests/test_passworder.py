@@ -7,6 +7,7 @@ from random_password import get_random_password, get_random_salt
 
 sys.path.insert(0, os.path.dirname(__file__))
 
+
 class TestRandomPassword(TestCase):
     def test_random_password(self):
         random_pass = get_random_password()
