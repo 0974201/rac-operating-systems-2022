@@ -13,8 +13,9 @@ jobs:
           python-version: '3.9'
       - name: pyling
         run: |
+          pip install --upgrade pip
           pip install flake8
-          flake8 --max-line-lenght=120
+          flake8 --max-line-length=120
       - name: Hello World!
         run: echo "Hello World"
   testing:
